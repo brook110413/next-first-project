@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import classes from './button.module.css';
+import Link from "next/link";
+import classes from "./button.module.css";
 
 const Button = ({ children, link, onClick }) => {
   if (link) {
